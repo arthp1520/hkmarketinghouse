@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Amatic+SC:wght@400;700&family=Afacad:wght@700&display=swap');
 
 :root {
@@ -15,6 +15,43 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700;
+}
+
+p, h4, h5, h6, label, input, textarea, select {
+  font-family: 'Amatic SC', cursive !important;
+  font-weight: 400;
+}
+
+.info p {
+  font-family: 'Poppins', sans-serif !important;
+} */
+@import "tailwindcss";
+
+/* ── Fonts ── */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Amatic+SC:wght@400;700&family=Afacad:wght@700&display=swap'); */
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%; /* prevents mobile from auto-resizing fonts */
 }
 
 body {

@@ -40,7 +40,7 @@ const clients = [
 const portfolioVideos = [
   { src: "https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781598409/lv_0_20260425133458_qi0sbf.mp4", poster: "https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_auto/v1781595806/shalimar_xhzrcc.jpg",   title: "Brand Campaign",     sub: "Premium commercial visuals", tag: "SCENE 01" },
   { src: "https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781597732/Swagat_inn_olinle.mp4", poster: "https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_auto/v1781596089/Swaggat_n6t5qu.jpg",   title: "Food and Chill",     sub: "Post & Video Edit", tag: "SCENE 02" },
-  { src: "https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781596211/Cinematic_Video_Roshni_Driving_School__y5qbpn.mp4",         poster: "https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_auto/v1781596106/repair_rncnzu.jpg", title: "Driving",            sub: "Emotional storytelling",     tag: "SCENE 03" },
+  { src: "https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781596211/Cinematic_Video_Roshni_Driving_School__y5qbpn.mp4",         poster: "https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_auto/v1781596106/repair_rncnzu.jpg", title: "Driving",            sub: "Brand Shoot",     tag: "SCENE 03" },
   { src: "https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781598934/shiv-sagar_j6nsji.mp4",          poster: "https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_auto/v1781595807/shiv_aehsoo.jpg",         title: "Advertisement Film", sub: "Creative ad production",     tag: "SCENE 04" },
 ];
 
@@ -385,7 +385,7 @@ export default function Home() {
             className="flex items-center justify-center gap-3 mb-5"
           >
             <div className="h-px w-10" style={{ background: "rgba(245,191,3,.5)" }} />
-            <p className="uppercase tracking-[6px] text-xs" style={{ color: GOLD }}>Creative Production House</p>
+            <p className="uppercase tracking-[6px] text-xs" style={{ color: GOLD }}>HK Production House</p>
             <div className="h-px w-10" style={{ background: "rgba(245,191,3,.5)" }} />
           </motion.div>
 

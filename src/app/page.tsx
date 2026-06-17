@@ -23,9 +23,9 @@ const GOLD = "#F5BF03";
 const scrollingWords = ["Stories", "Brands", "Moments", "Shots", "Stories"];
 
 const filmStripItems = [
-  "BRAND SHOOT", "ADVERTISEMENT", "WEDDING FILMS", "REEL EDITING",
+  "BRAND SHOOT", "ADVERTISEMENT", "Growing Bussiness", "REEL EDITING",
   "COMMERCIAL", "PRODUCTION", "CINEMATICS", "VISUAL STORIES",
-  "BRAND SHOOT", "ADVERTISEMENT", "WEDDING FILMS", "REEL EDITING",
+  "BRAND SHOOT", "ADVERTISEMENT", "Social Media Management", "REEL EDITING",
 ];
 
 const clients = [
@@ -82,7 +82,7 @@ const services = [
     ),
   },
   {
-    label: "Social Media Marketing (YT, INSTA, FB)",
+    label: "Social Media Marketing (YT, INSTA, FB and MORE)",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={GOLD} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="18" cy="5" r="3" />
@@ -349,7 +349,7 @@ export default function Home() {
 
         <motion.div style={{ y: heroParallax }} className="absolute inset-0">
           <video autoPlay muted loop playsInline className="w-full h-full object-cover opacity-25">
-            <source src="https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781596105/hero_ri8q7n.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/ddq38edzp/video/upload/q_auto/f_auto/v1781676167/rotating-cylindrical-stream-of-social-media-feeds-2026-03-12-01-43-19-utc_1_pd4hgu.mp4" type="video/mp4" />
           </video>
         </motion.div>
 
@@ -606,7 +606,7 @@ export default function Home() {
             {[
               { icon: Camera, title: "Brand Shoot",              desc: "Premium cinematic branding visuals designed for modern businesses.", delay: 0    },
               { icon: Video,  title: "Advertisement Films",       desc: "Creative commercial productions that capture attention instantly.",  delay: 0.12 },
-              { icon: Film,   title: "Social Media Management",   desc: "Emotional storytelling through luxury wedding filmmaking.",         delay: 0.24 },
+              { icon: Film,   title: "Social Media Management",   desc: "Handling and Growing Your Social Media Phase .",         delay: 0.24 },
             ].map(({ icon: Icon, title, desc, delay }) => (
               <motion.div
                 key={title}
@@ -783,7 +783,7 @@ export default function Home() {
             <div className="absolute bottom-4 left-4 w-5 h-5 border-b border-l"  style={{ borderColor: "rgba(245,191,3,.2)" }} />
             <div className="absolute bottom-4 right-4 w-5 h-5 border-b border-r" style={{ borderColor: "rgba(245,191,3,.2)" }} />
 
-            <h3 className="text-xl md:text-2xl font-bold mb-6 tracking-wide">Book a Shoot</h3>
+            <h3 className="text-xl md:text-2xl font-bold mb-6 tracking-wide">Let's Work Together</h3>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               {[
@@ -813,8 +813,8 @@ export default function Home() {
                 <option value="">Choose Service</option>
                 <option>Brand Shoot</option>
                 <option>Advertisement Shoot</option>
-                <option>Wedding Shoot</option>
-                <option>Film Production</option>
+                <option>Social Media Shoot</option>
+                <option>Film Shoot</option>
                 <option>Video Editing</option>
               </select>
 

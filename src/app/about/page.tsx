@@ -155,7 +155,7 @@ export default function AboutPage() {
                 style={{ background: "radial-gradient(circle, #F5BF03 0%, #ea6400 50%, transparent 80%)" }}
               />
               <img
-                src="/logo.png"
+                src="https://res.cloudinary.com/ddq38edzp/image/upload/q_auto/f_autgio/v1781596103/logo_drpkpt.jpg"
                 alt="HK Marketing House"
                 className="w-full h-full object-contain drop-shadow-[0_0_24px_rgba(245,191,3,0.5)]"
               />
